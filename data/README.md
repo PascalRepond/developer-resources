@@ -16,7 +16,7 @@ All database stuffs.
 - [invenio-pidstore](invenio-pidstore.md)
 - [invenio-records](invenio-records.md)
 - [sqlalchemy](sqlalchemy.md)
-    - examples: [examples/](database/examples/)
+  - examples: [examples/](database/examples/)
 
 ## Indexing
 

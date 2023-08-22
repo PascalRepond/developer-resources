@@ -2,9 +2,8 @@
 
 Use [PyChangelog][1].
 
-It's a Python tool that reads a github project event data through github's
-API and generate a changelog with sections about fixed bugs (issues with the
-bug tag), fixed issues, and merged PRs.
+It's a Python tool that reads a github project event data through Github's
+API and generates a changelog with sections about fixed issues, and merged PRs.
 
 [1]: https://github.com/rero/pychangelog
 
@@ -32,10 +31,10 @@ project's `CHANGELOG.md`.
    closed/merged for this release (not more, not less!)
 2. Manually fix any blatantly unclear or non-pertinent info in the generated 
 list. If necessary, edit the issue directly in Github and generate the 
-changelog again. Sometimes issues are closed wihtout being fixed. If someone 
-closed an issue and forogt to tag it as `stale`, `wontfix` or `duplicate`, the 
+changelog again. Sometimes issues are closed without being fixed. If someone 
+closed an issue and forgot to tag it as `stale`, `wontfix` or `duplicate`, the 
 generator will add it to the changelog.
-3. Once everything looks fine, save the file and keep on with the release!
+1. Once everything looks fine, save the file and keep on with the release!
 
 ### GitHub's API Token
 
